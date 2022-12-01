@@ -1,0 +1,163 @@
+body {
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+
+.debut {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.header img {
+   width: 100vw;
+}
+
+nav a {
+   text-decoration: none;
+   margin: 10px;
+   color: #003E52;
+
+}
+
+.slider img {
+   width: 100vw;
+}
+
+.epices-div {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.epices-text {
+   margin-top: 50px;
+   text-align: right;
+   color: #003E52;
+   margin-right: 120px;
+}
+
+.epices-div img {
+   margin-bottom: 30px;
+   width: 200px;
+}
+
+/*------sushis----*/
+
+.sushis-text {
+   margin-left: 300px;
+   color: #003E52;
+   margin-top: 30px;
+}
+
+.sushis-div h3 {
+   text-align: center;
+   color: #003E52;
+   margin-bottom: 30px;
+}
+
+.img-fluid {
+   width: 100vw;
+}
+
+/*------Maki----*/
+
+.maki img {
+   width: 100vw;
+}
+
+.maki-div iframe {
+   width: 100vw;
+   filter: grayscale(100%);
+   background-color: #666;
+   cursor: pointer;
+}
+
+footer {
+   height: 200px;
+   background-color: #003E52;
+   width: 100vw;
+
+}
+
+footer h3 {
+   margin-top: 20px;
+}
+
+footer h3 {
+   text-align: center;
+   color: white;
+}
+
+footer p {
+   text-align: center;
+   color: white;
+}
+
+
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+   nav {
+      display: none;
+   }
+
+   .debut img {
+      margin-right: 90px;
+   }
+
+   .epices-text {
+      margin-right: 30px;
+   }
+
+   .img-fluid img {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .sushis-div {
+      text-align: center;
+   }
+
+   .sushis-text {
+      margin-right: 30%;
+   }
+
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+   
+   nav {
+      display: none;
+   }
+
+   .debut img {
+      margin-right: 90px;
+   }
+
+   .epices-text {
+      margin-right: 30px;
+   }
+
+   .img-fluid img {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+   }
+
+   .sushis-div {
+      text-align: center;
+   }
+
+   .sushis-text {
+      margin-right: 30%;
+      display: flex;
+      justify-content: space-around;
+   }
+}
